@@ -224,7 +224,7 @@ glitch-wrapper {
     background-image: url('./imags/home2.avif');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-attachment: fixed;
 }
