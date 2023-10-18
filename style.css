@@ -435,7 +435,7 @@ glitch-wrapper {
         background-image: url('./imags/home2.avif');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: 70vh;
         width: 100%;
         background-attachment: fixed;
     }
@@ -600,7 +600,7 @@ glitch-wrapper {
     .contact-container {
         margin-top: 30px;
         background-image: url('./imags/contact1.avif');
-        height: 100vh;
+        height: 70vh;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -621,5 +621,8 @@ glitch-wrapper {
     .heads {
         position: absolute;
         left: 0px;
+    }
+     #portid {
+        margin-top: 600px;
     }
 }
