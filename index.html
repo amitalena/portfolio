@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <!-- slick slider start-->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- slick slider end -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--header section starts-->
+    <header class="header p-2 bg-black  z-50 bg:fixed">
+        <div class="flex justify-between h-[70px] bg-none md:px-[180px]"><a href="index.html" class="logo text-gyellow p-3 font-bold text-4xl"><i class="text-3xl font-bold text-gyellow ri-globe-fill"></i>Amit Kumar</a>
+            <div class="menu md:flex">
+                <ul class="menu-list md:flex text-center p-3 md:ml-[50px] gap-5 text-gyellow">
+                    <li class="hover:text-white text-xl w-[100px] hover:scale-105 text-center py-2 px-3 capitalize duration-300"><a href="index.html">home</a></li>
+                    <li class="hover:text-white text-xl w-[100px] hover:scale-105 text-center py-2 px-3 capitalize duration-300"><a href="#about">about</a></li>
+                    <li class="hover:text-white text-xl w-[100px] hover:scale-105 text-center py-2 px-3 capitalize duration-300"><a href="#portfolio">portfolio</a></li>
+                    <li class="hover:text-white text-xl w-[100px] hover:scale-105 text-center py-2 px-3 capitalize duration-300"><a href="#education">education</a></li>
+                    <li class="hover:text-white text-xl w-[100px] hover:scale-105 text-center py-2 px-3 capitalize duration-300"><a href="#experience">experience</a></li>
+                    <li class="hover:text-white text-xl w-[100px] hover:scale-105 text-center py-2 px-3 capitalize duration-300"><a href="#contact">contact</a></li>
+                </ul>
+                <div class="user1 hidden h-[60px] my-1 bg-white text-black md:flex justify-between">
+                    <a href="user.html" class="flex p-2 px-3"><span class="pt-1 text-2xl">User</span><i class="ri-user-fill text-2xl mt-1 mx-2"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="main md:hidden"><i class="ri-menu-line text-gyellow font-bold text-4xl"></i></div>
+    </header>
+    <main class="main-container">
+        <a name="home"></a>
+        <div class="bg-black relative opacity-70 h-full" id="main">
+            <div class="text-center text-white md:pt-[150px]">
+                <svg>
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                        I am Amit kumar
+                    </text>
+                </svg>
+                <div class="glitch-wrapper">
+                    <div class="glitch text-white" data-text="- WEBDEVELOPER -"></div>
+                </div>
+                <p class="text-xl my-[100px] p-3">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. NUNC BLANDIT INTERDUM RUTRUM.</p>
+                <button class="btn border-2 border-text-gyellow p-3 text-2xl font-bold px-6">Download CV<i class="ri-arrow-down-s-line"></i></button>
+            </div>
+            <a href="#about" class="border-2 animate-bounce absolute bounce ml-[49%] mt-[30px] h-[50px] w-[50px] rounded-full border-text-white p-2 font-bold text-gyellow text-3xl"><i class="ri-arrow-down-s-line"></i></a>
+        </div>
+    </main>
+    <section class="about bg-gray-100 my-2 md:px-[180px]">
+        <a name="about"></a>
+        <div class="p-3 md:pb-[100px] relative h-full">
+            <h1 class="flex justify-center btn w-[220px] mb-[10px] md:my-[25px] text-3xl md:ml-[44%] p-2 px-5 text-black font-bold shadow">ABOUT ME</h1>
+            <div class="md:flex md:justify-between relative">
+                <img src="./imags/amit.avif" alt="" class="shadow-2xl md:w-[400px] md:h-[550px]">
+                <div class="bg-black opacity-100 shadow md:ml-[350px] md:mt-[50px] md:w-[950px] absolute md:h-[480px]">
+                    <div class="md:py-[60px] md:px-[80px] bg-yellowgreen">
+                        <h1 class="text-black p-4 z-50 font-bold text-3xl break-all">I'm a web designer / developer based in varanasi, UP. I have a passion for web design and love to create for web and mobile devices.</h1>
+                        <p class="text-xl p-5 md:my-5 break-all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit interdum rutrum. Cras tincidunt rhoncus turpis. Nulla elit nibh, vehicula vitae tortor a, fermentum euismod erat. Phasellus vel eros sed sem luctus fringilla
+                            sed eleifend eros. Sed et elementum lectus. Aenean ultrices pharetra vestibulum. Praesent a turpis sed nunc auctor vehicula id a sapien. Proin at nulla commodo, pretium enim et, fringilla elit.</p>
+                        <span class="text-2xl p-4  font-bold"><a href="#" class="py-5">CHECK OUT MY PROFILE</a></span>
+                    </div>
+                </div>
+            </div>
+            <a href="#portfolio" class="border-2 absolute animate-bounce  bounce ml-[49%] my-10 h-[50px] w-[50px] rounded-full border-black p-2 font-bold text-black text-3xl"><i class="ri-arrow-down-s-line"></i></a>
+        </div>
+        <!-- <div class="skills mt-[50px] bg-black">
+            <div id="myProgress">
+                <div id="myBar">10%</div>
+            </div>
+            <button onclick="move();">click</button>
+        </div> -->
+    </section>
+    <section class="portfolio bg-gray-100 my-1 py-[50px]">
+        <a name="portfolio"></a>
+        <div class="p-3 md:h-full md:pb-[100px]">
+            <h1 class="flex justify-center prt btn w-[200px] mb-[10px] md:my-[25px] text-3xl md:ml-[44%] p-2 px-5 text-black font-bold shadow">PORTFOLIO</h1>
+            <div class="filter-container gap-5 md:ml-[480px] mb-5">
+                <button class="filter-btn btn active border-2 mx-5 p-3 px-5 uppercase" data-filter="all">Show All</button>
+                <button class="filter-btn btn border-2 mx-5 p-3 px-5 uppercase" data-filter="design1">design1</button>
+                <button class="filter-btn btn border-2 mx-5 p-3 px-5 uppercase" data-filter="design2">design2</button>
+                <button class="filter-btn btn border-2 mx-5 p-3 px-5 uppercase" data-filter="design3">design3</button>
+                <!-- Add more buttons for different categories as needed -->
+            </div>
+            <div class="items-container md:grid grid-cols-3 gap-1 my-[10px] md:mx-[180px]">
+                <!-- Your content items go here with appropriate data-filter attributes -->
+                <div class="item w-[460px] h-[270px]" data-category="design1">
+                    <div class="img-port relative">
+                        <img src="./imags/home1.avif" alt="" class="cursor-pointer hover:opacity-60 duration-300 hover:shadow-2xl w-full h-[270px]">
+                        <div>
+                            <h1 class="hidden text-4xl font-bold cursor-pointer text-white w-full z-50 heads">My Design1</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-[460px] h-[270px]" data-category="design1">
+                    <div class="img-port relative">
+                        <img src="./imags/home1.avif" alt="" class="cursor-pointer hover:opacity-60 duration-300 hover:shadow-2xl w-full h-[270px]">
+                        <div>
+                            <h1 class="hidden text-4xl font-bold cursor-pointer text-white w-full z-50 heads">My Design1</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-[460px] h-[270px]" data-category="design2">
+                    <div class="img-port relative">
+                        <img src="./imags/home1.avif" alt="" class="cursor-pointer hover:opacity-60 duration-300 hover:shadow-2xl w-full h-[270px]">
+                        <div>
+                            <h1 class="hidden text-4xl font-bold cursor-pointer text-white w-full z-50 heads">My Design2</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-[460px] h-[270px]" data-category="design2">
+                    <div class="img-port relative">
+                        <img src="./imags/home1.avif" alt="" class="cursor-pointer hover:opacity-60 duration-300 hover:shadow-2xl w-full h-[270px]">
+                        <div>
+                            <h1 class="hidden text-4xl font-bold cursor-pointer text-white w-full z-50 heads">My Design2</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-[460px] h-[270px]" data-category="design3">
+                    <div class="img-port relative">
+                        <img src="./imags/home1.avif" alt="" class="cursor-pointer hover:opacity-60 duration-300 hover:shadow-2xl w-full h-[270px]">
+                        <div>
+                            <h1 class="hidden text-4xl font-bold cursor-pointer text-white w-full z-50 heads">My Design3</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item w-[460px] h-[270px]" data-category="design3">
+                    <div class="img-port relative">
+                        <img src="./imags/home1.avif" alt="" class="cursor-pointer hover:opacity-60 duration-300 hover:shadow-2xl w-full h-[270px]">
+                        <div>
+                            <h1 class="hidden text-4xl font-bold cursor-pointer text-white w-full z-50 heads">My Design3</h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more items with data-category attributes corresponding to the categories -->
+            </div>
+            <a href="#education" class="border-2 absolute animate-bounce  bounce ml-[49%] mt-3 h-[50px] w-[50px] rounded-full border-black p-2 font-bold text-black text-3xl"><i class="ri-arrow-down-s-line"></i></a>
+        </div>
+    </section>
+    <section class="education bg-gray-100 my-1 py-[50px]">
+        <a name="education"></a>
+        <div class="p-3 h-full md:px-[200px]">
+            <h1 class="flex justify-center my-[65px] btn w-[200px] my-3 text-3xl ml-[44%] p-2 px-5 text-black font-bold shadow">EDUCATION</h1>
+            <div class="edu relative flex justify-center">
+                <div class="edu-item"></div>
+                <div class="edu2 flex my-[50px] gap-10">
+                    <div class="left border md:h-[200px] w-[250px]">
+                        <div class="outline-dashed p-4">
+                            <h3 class="text-xl font-bold">High School UP Board</h3>
+                            <p class="text-gray-500">
+                                <span class="font-bold">College:</span> Intermediate College Birapatti Varanasi</p>
+                            <p class="text-gray-500"><span class="font-bold">Years:</span> 2015</p>
+                            <p class="text-gray-500"><span class="font-bold">Marks:</span> 76%</p>
+                        </div>
+                    </div>
+                    <div class="mess relative">
+                        <h1 class="text-center text-2xl text-black mt-[15px]">University</h1>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="edu3 md:flex my-[50px] gap-10">
+                    <div class="mess1 relative">
+                        <div class="line1"></div>
+                        <h1 class="text-center text-2xl text-black md:mt-[15px] uni">University</h1>
+                    </div>
+                    <div class="right border h-[200px] w-[250px]">
+                        <div class="outline-dashed p-4">
+                            <h3 class="text-xl font-bold">Inter UP Board</h3>
+                            <p class="text-gray-500">
+                                <span class="font-bold">College:</span> Intermediate College Birapatti Varanasi</p>
+                            <p class="text-gray-500"><span class="font-bold">Years:</span> 2017</p>
+                            <p class="text-gray-500"><span class="font-bold">Marks:</span> 61%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="edu relative flex justify-center">
+                <div class="edu-item"></div>
+                <div class="edu2 flex my-[50px] gap-10">
+                    <div class="left border md:h-[200px] w-[250px]">
+                        <div class="outline-dashed p-4">
+                            <h3 class="text-xl font-bold">Graduation MGKVP Varanasi</h3>
+                            <p class="text-gray-500">
+                                <span class="font-bold">College:</span> JNM College For Advance Stydies & Technoogy and Management Badalalpur Varanasi</p>
+                            <p class="text-gray-500"><span class="font-bold">Years:</span> 2021</p>
+                            <p class="text-gray-500"><span class="font-bold">Marks:</span> 63%</p>
+                        </div>
+                    </div>
+                    <div class="mess relative">
+                        <h1 class="text-center text-2xl text-black mt-[15px]">University</h1>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="edu3 md:flex my-[50px] gap-10">
+                    <div class="mess1">
+                        <div class="line1"></div>
+                        <h1 class="text-center text-2xl text-black md:mt-[15px] uni">University</h1>
+                    </div>
+                    <div class="right border h-[200px] w-[240px]">
+                        <p class="outline-dashed p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusamus illum optio magni suscipit impedit ab? Ipsum alias vitae repellendus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-loader mt-[-62px] md:ml-[51.1%]"></div>
+            <a href="#experience" class="border-2 absolute animate-bounce bounce ml-[38%] mt-8 h-[50px] w-[50px] rounded-full border-black p-2 font-bold text-black text-3xl">
+                <i class="ri-arrow-down-s-line"></i>
+            </a>
+            <hr class="border mt-[100px] border-gray-300">
+        </div>
+    </section>
+    <section class="experience bg-gray-100 my-1 py-[50px]">
+        <a name="experience"></a>
+        <div class="p-3 h-full md:px-[200px]">
+            <h1 class="flex justify-center my-[65px] btn w-[200px] my-3 text-3xl ml-[44%] p-2 px-5 text-black font-bold shadow">EPERIENCE</h1>
+            <div class="edu relative flex justify-center">
+                <div class="edu-item"></div>
+                <div class="edu2 flex my-[50px] gap-10">
+                    <div class="left border md:h-[200px] w-[250px]">
+                        <p class="outline-dashed p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusamus illum optio magni suscipit impedit ab? Ipsum alias vitae repellendus.</p>
+                    </div>
+                    <div class="mess relative">
+                        <h1 class="text-center text-2xl text-black mt-[15px]">Company Name</h1>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="edu3 md:flex my-[50px] gap-10">
+                    <div class="mess1 relative">
+                        <div class="line1"></div>
+                        <h1 class="text-center text-2xl text-black md:mt-[15px] uni">Company Name</h1>
+                    </div>
+                    <div class="right border h-[200px] w-[250px]">
+                        <p class="outline-dashed p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusamus illum optio magni suscipit impedit ab? Ipsum alias vitae repellendus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="edu relative flex justify-center">
+                <div class="edu-item"></div>
+                <div class="edu2 flex my-[50px] gap-10">
+                    <div class="left border md:h-[200px] w-[250px]">
+                        <p class="outline-dashed p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusamus illum optio magni suscipit impedit ab? Ipsum alias vitae repellendus.</p>
+                    </div>
+                    <div class="mess relative">
+                        <h1 class="text-center text-2xl text-black mt-[15px]">Company Name</h1>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="edu3 md:flex my-[50px] gap-10">
+                    <div class="mess1">
+                        <div class="line1"></div>
+                        <h1 class="text-center text-2xl text-black md:mt-[15px] uni">Company Name</h1>
+                    </div>
+                    <div class="right border h-[200px] w-[240px]">
+                        <p class="outline-dashed p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusamus illum optio magni suscipit impedit ab? Ipsum alias vitae repellendus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-loader mt-[-62px] md:ml-[51.1%]"></div>
+            <a href="#contact" class="border-2 absolute animate-bounce bounce ml-[38%] mt-8 h-[50px] w-[50px] rounded-full border-black p-2 font-bold text-black text-3xl">
+                <i class="ri-arrow-down-s-line"></i>
+            </a>
+            <hr class="border mt-[100px] border-gray-300">
+        </div>
+    </section>
+    <section class="contact bg-gray-100 py-[70px] md:px-[180px]">
+        <a name="contact"></a>
+        <div class="p-3 relative">
+            <h1 class="flex justify-center btn w-[250px] cntr mt-[65px] text-3xl md:ml-[43%] p-2 px-5 text-black font-bold shadow">CONTACT ME</h1>
+            <div class="contact-container px-20px">
+                <form action="https://formsubmit.co/amitk221003@gmail.com" method="POST" class="pt-[17px] bg-black opacity-80">
+                    <div class="grid md:grid-cols-2 gap-10 bg-none py-[15px] px-[50px]">
+                        <input type="text" required placeholder="Name" name="name" class="outline-none p-3 text-xl border bg-black opacity-50 required text-white">
+                        <input type="text" required placeholder="Subject" name="subject" class="outline-none p-3 text-xl border bg-black opacity-50 required text-white">
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-10 bg-none py-[15px] px-[50px]">
+                        <input type="email" required placeholder="Email" name="email" class="outline-none p-3 text-xl border bg-black opacity-50 required text-white">
+                        <input type="number" required placeholder="Phone" name="number" class="outline-none p-3 text-xl border bg-black opacity-50 required text-white">
+                    </div>
+                    <div class="grid grid-cols-1 py-[15px] px-[50px]">
+                        <textarea name="message" id="" required placeholder="Text here..." rows="10" class="outline-none h-[245px] p-3 text-xl border bg-black text-white opacity-50 required transparent"></textarea>
+                        <button type="submit" id="btn2" class="w-[250px] md:ml-[41%] bg-yellowgreen text-white text-3xl font-bold p-3 my-3 opacity-100 text-center border-2 btn">Send</button>
+                    </div>
+                </form>
+            </div>
+            <a href="#footer" class="border-2 absolute animate-bounce bounce ml-[48%] mt-5 h-[50px] w-[50px] rounded-full border-black p-2 font-bold text-black text-3xl">
+                <i class="ri-arrow-down-s-line"></i>
+            </a>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class='py-2 bg-black opacity-100'>
+        <a name="footer"></a>
+        <div class="md:px-[180px] h-full relative">
+            <div class='bg-slate-100 md:flex mt-[100px] p-10 justify-between gap-12 rounded '>
+                <div><img src="./imags/contact2.avif" alt="" class='h-[220px] w-[350px] '></div>
+                <div class='h-[220px] w-[420px] '>
+                    <p class='text-2xl my-3 font-badani '>Subscribe to receive my best posts once a month</p>
+                    <p class='text-gray-600 '>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.</p>
+                </div>
+                <form action="https://formsubmit.co/amitk221003@gmail.com" method="POST">
+                    <div class='font-badani w-[350px] my-3'>
+                        <input type="text" name="name" required placeholder='Enter Your Email' size=35 class='outline-none p-3 rounded w-full' />
+                        <button type="submit" class='bg-blue-400 rounded my-5 p-3 w-full'>Subscibe Now</button>
+                    </div>
+                </form>
+            </div>
+            <div class='md:flex md:justify-between p-4 my-[50px]'>
+                <div class='flex'>
+                    <span class='text-gyellow hover:text-white hover:scale-105 duration-300 cursor-pointer text-center p-1 rounded '>Home</span>
+                    <span class='text-gyellow hover:text-white hover:scale-105 duration-300 cursor-pointer text-center p-1 rounded mx-2'>About</span>
+                    <span class='text-gyellow hover:text-white hover:scale-105 duration-300 cursor-pointer text-center p-1 rounded mx-2'>Contact</span>
+                    <span class='text-gyellow hover:text-white hover:scale-105 duration-300 cursor-pointer text-center p-1 rounded mx-2'>Services</span>
+                </div>
+                <div class='flex'>
+                    <h1 class='mr-2 text-white text-2xl font-bold'>Download:</h1>
+                    <span class='cursor-pointer mr-2 text-2xl text-gyellow'><i class="hover:text-white ri-apple-fill"></i></span>
+                    <span class='cursor-pointer mr-2 text-2xl  text-gyellow'><i class="hover:text-white ri-windows-fill"></i></span>
+                    <span class='cursor-pointer text-2xl  text-gyellow'><i class="hover:text-white ri-android-fill"></i></span>
+                </div>
+            </div>
+            <hr />
+            <div class='md:flex md:justify-between px-4 md:my-5'>
+                <p class='text-gray-400'>© 2021 Reprise. All RIghts Reserved. Design by <a href="home" class='underline text-gyellow font-bold'>@amit_kumar</a></p>
+                <button class='flex justify-center bg-slate-100 py-2 px-3'>English<i class="ri-translate ml-3 my-1 text-red-300"></i></button>
+            </div>
+            <a href="#" class="border-2 absolute animate-bounce bounce ml-[38%] mt-[-50px] h-[50px] w-[50px] rounded-full border-text-black p-2 font-bold text-gyellow text-3xl">
+                <i class="ri-arrow-up-s-line"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".main i").click(function() {
+                $(".menu").toggleClass("main");
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Initial state, show all items
+            $('.item').show();
+
+            // Filter button click event
+            $('.filter-btn').click(function() {
+                var category = $(this).data('filter');
+
+                // Show only items with the selected category or show all if 'all' is selected
+                if (category === 'all') {
+                    $('.item').show('.active');
+                } else {
+                    $('.item').hide();
+                    $('.item[data-category="' + category + '"]').show();
+                }
+            });
+        });
+    </script>
+    <script>
+        var i = 0;
+
+        function move() {
+            if (i == 0) {
+                i = 1;
+                var elem = document.getElementById("myBar");
+                var width = 10;
+                var id = setInterval(frame, 10);
+
+                function frame() {
+                    if (width >= 100) {
+                        clearInterval(id);
+                        i = 0;
+                    } else {
+                        width++;
+                        elem.style.width = width + "%";
+                        elem.innerHTML = width + "%";
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+
+</html>
+
+</html>
